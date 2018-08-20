@@ -11,7 +11,7 @@ ROOT = sutils.config.ROOT
 mat_files_dir = ROOT + 'Vincent_Project/new_labels/'
 dataframe_files_dir = ROOT + 'Vincent_Project/'
 
-idx = pd.IndexSlice
+idx = pd.IndexSlice 
 Shank3 = ['WT', 'Het']
 ROI = ['mPFC', 'vCA1', 'dCA1']
 delay = [5, 30, 60]
